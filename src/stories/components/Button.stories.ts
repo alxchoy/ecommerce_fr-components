@@ -18,7 +18,7 @@ type Story = StoryObj<typeof Button>;
 
 export const Primary: Story = {
   args: {
-    isPrimary: true,
+    primary: true,
     name: "primary",
   },
 };

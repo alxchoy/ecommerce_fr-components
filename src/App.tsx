@@ -27,7 +27,7 @@ function App() {
         imgUrl="https://cdn.shopify.com/s/files/1/0070/7032/files/diy-product-photography.jpg?v=1599161908"
         product={{ title: "The Silmarillion", description, price: 123.4 }}
       />
-      <Button name="store" onClick={handleButton} isPrimary={true} />
+      <Button name="store" onClick={handleButton} primary />
       <Button name="store" onClick={handleButton} />
     </>
   );

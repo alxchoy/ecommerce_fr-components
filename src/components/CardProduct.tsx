@@ -30,10 +30,10 @@ const CardProduct = ({ imgUrl, product }: CardProductProps) => {
           </p>
           <div className="absolute bottom-0 left-0 right-0 flex flex-row items-center justify-between">
             <Button
-              isPrimary={true}
               name="Add to cart"
               onClick={() => console.log("add to cart")}
-              className="px-2 py-2.5 text-xs"
+              size="small"
+              primary
             />
             <span className="font-bold">$ {product.price}</span>
           </div>
